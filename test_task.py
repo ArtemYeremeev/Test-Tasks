@@ -9,7 +9,6 @@ import random
 source_data = load_workbook('test_task.xlsx')
 data = source_data['test_task']
 column_a = data['A']
-# Создается пустой список для размещения данных
 sample = []
 # Используя цикл for и операцию append значения столбца переносятся в созданный список
 for i in range(len(column_a)):
